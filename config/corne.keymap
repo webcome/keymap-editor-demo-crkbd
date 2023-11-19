@@ -174,8 +174,6 @@
         &kp LSHFT   &kp Z         &kp X         &kp C        &kp V        &kp B        &kp N    &kp M            &kp COMMA    &kp DOT       &kp FSLH         &capdance
                                                 &kp LGUI     &lt 1 GRAVE  &kp SPACE    &kp RET  &lt 2 BACKSPACE  &kp RALT
       >;
-
-      sensor-bindings = <&rgbknob RGB_HUI RGB_HUD>, <&rgbknob RGB_BRI RGB_BRD>;
     };
 
     raise {
@@ -185,8 +183,6 @@
         &trans  &kp F1    &kp F2   &kp F3  &kp F4         &kp F5         &kp F6          &kp F7          &kp F8        &kp F9           &kp F10  &kp F11
                                    &trans  &trans         &trans         &trans          &trans          &trans
       >;
-
-      sensor-bindings = <&volknob>;
     };
 
     lower {
